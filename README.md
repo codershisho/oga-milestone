@@ -34,3 +34,9 @@
     ```
     http://localhost:3000/
     ```
+
+# makefile
+```sh
+sudo apt install make
+sudo apt install make-guile
+```
