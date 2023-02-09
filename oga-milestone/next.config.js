@@ -5,6 +5,11 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  watchers: {
+    webpack: {
+      poll: true
+    }
+  }
 }
 
 module.exports = nextConfig
