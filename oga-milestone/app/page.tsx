@@ -1,3 +1,9 @@
 export default function Home() {
-  return <main>Hello Next.js 13</main>;
+  return (
+    <>
+      <div className="text-4xl text-green-700">
+        aaaaaa
+      </div>
+    </>
+  );
 }
