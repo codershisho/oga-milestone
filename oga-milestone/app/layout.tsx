@@ -12,7 +12,9 @@ export default function RootLayout({
       <body>
         <Headnavi>
         </Headnavi>
+        <div className='pl-10 pr-10 pt-5'>
         {children}
+        </div>
       </body>
     </html>
   )

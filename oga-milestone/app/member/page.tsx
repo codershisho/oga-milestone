@@ -1,7 +1,7 @@
 export default function Member() {
   return (
     <>
-      <div>Member</div>
+    <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
     </>
   );
 }
