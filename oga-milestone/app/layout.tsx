@@ -1,20 +1,18 @@
-import '../styles/globals.css';
-import Headnavi from './Headnavi';
+// app/layout.tsx
+'use client'
+
+import { ChakraProvider } from '@chakra-ui/react'
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
 }) {
   return (
-    <html>
+    <html lang='en'>
       <head />
       <body>
-        <Headnavi>
-        </Headnavi>
-        <div className='pl-10 pr-10 pt-5'>
-        {children}
-        </div>
+        <ChakraProvider>{children}</ChakraProvider>
       </body>
     </html>
   )
